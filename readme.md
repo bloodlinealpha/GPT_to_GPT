@@ -2,7 +2,7 @@
 
 ## Description
 
-This project is part of the Syntax Sunday series in which I showcase different software/technology through simple and fun examples. GPT-to-GPT utilizes the OpenAI Chat Completions API, as well as, custom GPTS's using Actions. The idea is to create many Agents or LLM Agents (using either the API or custom GPTs) that work together to solve problems and complete tasks.
+This project is part of the [Syntax Sunday series](https://blog.bloodlinealpha.com/) in which I showcase different software/technology through simple and fun examples. GPT-to-GPT utilizes the OpenAI Chat Completions API, as well as, custom GPTS's using Actions. The idea is to create many Agents or LLM Agents (using either the API or custom GPTs) that work together to solve problems and complete tasks.
 
 Currently, OpenAI does not let custom GPT's recruit other custom GPT's to work together, but I am sure they will be adding that at some point. This can be done soley with the API as well, you would just need to create a **Boss**, that decides which Agent or Agents to recruit. It is a very neat concept as after the user submits there prompt, the dialogue is between the Agents and they decide together how to proceed. 
 
