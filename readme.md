@@ -63,7 +63,7 @@ To get started with the GPT_to_GPT project, follow these steps:
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone https://github.com/your-username/GPT_to_GPT.git
+    git clone https://github.com/bloodlinealpha/GPT_to_GPT
     ```
 
 2. Navigate to the project directory:
