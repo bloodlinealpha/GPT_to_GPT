@@ -1,0 +1,18 @@
+{
+  "name": "gpt_to_gpt",
+  "version": "1.0.0",
+  "description": "API for custom GPT Actions to talk to custom GPT Agents.",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "author": "bloodlinealphaDev",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0",
+    "openai": "^4.33.0"
+  }
+}

@@ -1,0 +1,92 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: DevJr, DevInt, and DevSr API
+  license:
+    name: MIT
+servers:
+  - url: http://localhost:3001/agents
+paths:
+  /devJr:
+    post:
+      summary: Interact with devJr agent
+      operationId: interactDevJr
+      tags:
+        - devJr
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                input:
+                  type: string
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DevJrResponse"
+  /devInt:
+    post:
+      summary: Interact with devInt agent
+      operationId: interactDevInt
+      tags:
+        - devInt
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                input:
+                  type: string
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DevIntResponse"
+  /devSr:
+    post:
+      summary: Interact with devSr agent
+      operationId: interactDevSr
+      tags:
+        - devSr
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                input:
+                  type: string
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DevSrResponse"
+components:
+  schemas:
+    DevJrResponse:
+      type: object
+      properties:
+        output:
+          type: string
+    DevIntResponse:
+      type: object
+      properties:
+        output:
+          type: string
+    DevSrResponse:
+      type: object
+      properties:
+        output:
+          type: string
