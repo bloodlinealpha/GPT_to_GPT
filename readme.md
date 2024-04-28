@@ -86,9 +86,11 @@ To get started with the GPT_to_GPT project, follow these steps:
     OPENAI_API_KEY=your-api-key
     ```
 
-    Make sure to replace `your-api-key` with your actual API key.
+    - Make sure to replace `your-api-key` with your actual API key.
+   
+    - Not sure how to get an API-key? Follow the help article on the OpenAI website: [https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key](https://help.openai.com/en/articles/4936850-where-do-i-find-my-openai-api-key)
 
-6. Save the `.env` file.
+7. Save the `.env` file.
 
 ### Create the Custom GPT
 ****You must have access to the paid (Plus or Team) version of ChatGPT**
