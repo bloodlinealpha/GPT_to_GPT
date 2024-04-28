@@ -93,7 +93,7 @@ To get started with the GPT_to_GPT project, follow these steps:
 ### Create the Custom GPT
 ****You must have access to the paid (Plus or Team) version of ChatGPT**
 
-7. Create a custom GPT with Actions using the [YourTypicalDevShop.md](YourTypicalDevShop\YourTypicalDevShop.md) configuration.
+7. Create a custom GPT with Actions using the [YourTypicalDevShop.md](YourTypicalDevShop/YourTypicalDevShop.md) configuration.
 
     - ensure you replace the server URL in the Actions YAML with your own once your LocalTunnel is running in the next steps. It is a bit of a pain but it is the only way I could get it working without actually working without hosting/publishing the API.
 
